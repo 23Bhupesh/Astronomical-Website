@@ -1,0 +1,489 @@
+@import url('https://fonts.googleapis.com/css2?family=Fasthand&family=Fira+Sans:wght@500&family=Freehand&family=Noto+Sans:wght@300&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+
+}
+
+
+/* Index-Page */
+
+/* h1 {
+    font-size: 40px;
+} */
+.body {
+    background-image: url("gif/body.gif");
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wlcm-statement {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 1.7rem;
+    color: #fff;
+    padding-bottom: 3%;
+}
+
+.quote {
+    color: #fff;
+    font-size: 1.5rem;
+    font-family: 'Freehand', cursive;
+}
+
+pre {
+    font-family: 'Freehand', cursive;
+}
+
+.next {
+    background-color: #00FFF6;
+    border: 5px solid #fff5f5;
+    border-radius: 15px;
+    border-color: #000;
+    padding: 15px 50px;
+    font-size: 35px;
+    cursor: pointer;
+}
+
+.next:hover {
+    background-color: #06ff00;
+    border-color: #fff;
+}
+
+
+/* Next-Page */
+
+.next-page-btns {
+    display: flex;
+    flex-direction: row;
+}
+
+.cosmology-btn {
+    background-image: url("images/cosmology.jpg");
+}
+
+.planetary-science-btn {
+    background-image: url("images/planetary-science.jpg");
+}
+
+.quantum-physics-btn {
+    background-image: url("images/quantum-physics.webp");
+}
+
+.btn {
+    height: 150px;
+    width: 350px;
+    margin: 15px;
+    color: #fff;
+    background-position: center;
+    background-size: cover;
+    font-weight: bold;
+    border: 5px solid #fff;
+    border-radius: 15px;
+    padding: 15px 50px;
+    font-size: 35px;
+    cursor: pointer;
+}
+
+
+/* Cosmology */
+
+.cosmology-btns-1, .cosmology-btns-2, .cosmology-btns-3  {
+    display: flex;
+    flex-direction: row;
+}
+ 
+.bigBangTheory-btn {
+    background-image: url("images/bigBangTheory.jpg");
+}
+
+.nebula-btn {
+    background-image: url("images/nebula.jpeg");
+}
+
+.astroidBelt-btn {
+    background-image: url("images/astroidBelt.jpeg");
+}
+
+.wormhole-btn {
+    background-image: url("images/wormhole.jpg");
+}
+
+.blackhole-btn {
+    background-image: url("images/blackhole.jpeg");
+}
+
+.supernova-btn {
+    background-image: url("images/supernova.jpeg");
+}
+
+.comets-btn {
+    background-image: url("images/comets.jpeg");
+}
+
+.constellation-btn {
+    background-image: url("images/constellation.jpeg");
+    padding: 15px 10px;
+}
+
+.galaxies-btn {
+    background-image: url("images/galaxies.jpeg");
+}
+
+
+/* planetary science */
+
+
+.mercury-btn {  
+    background-image: url("images/mercury.jpeg");
+}
+
+.venus-btn {
+    background-image: url("images/venus.jpeg");
+}
+
+.earth-btn {
+    background-image: url("images/earth.jpg");
+}
+
+.mars-btn {
+    background-image: url("images/mars.jpeg");
+}
+
+.jupiter-btn {
+    background-image: url("images/jupiter.jpeg");
+}
+
+.saturn-btn {
+    background-image: url("images/saturn.jpeg");
+}
+
+.uranus-btn {
+    background-image: url("images/uranus.jpeg");
+}
+
+.neptune-btn {
+    background-image: url("images/neptune.jpeg");
+}
+
+.pluto-btn {
+    background-image: url("images/pluto.jpeg");
+}
+
+
+/* quantum Physics */
+
+
+.timeStory-btn {
+    background-image: url("images/timeStory.jpeg");
+}
+
+.quantumComputing-btn {
+    background-image: url("images/quantumComputing.avif");
+}
+
+.body-black {
+    background-color: #000;
+    color: #fff;
+}
+.headings {
+    font-size: 1.4rem;
+    padding: 2%;
+    font-family: Roboto, Helvetica, sans-serif;
+}
+
+p {
+    text-align: justify;
+}
+
+h2 {
+    padding: 1% 0%;
+    text-align: left;
+}
+
+.text {
+    font-family: Roboto, Helvetica, sans-serif;
+    font-size: 21px;
+    line-height: 27px;
+}
+
+
+
+
+.img {
+    margin: 20px;
+}
+h3 {
+    padding: 10px;
+    text-decoration: underline;
+}
+
+/* Quantum Computing */
+.quantCompImg1 {
+    height: 350px;
+    width: 600px;
+}
+.quantCompImg2 {
+    height: 350px;
+    width: 400px;
+}
+.quantCompImg3 {
+    height: 350px;
+    width: 600px;
+}
+.quantCompImg4 {
+    height: 290px;
+    width: 290px;
+}
+
+
+/* time Story */
+.timeStoryImg1 {
+    height: 350px;
+    width: 250px;
+}
+.timeStoryImg2 {
+    height: 350px;
+    width: 600px;
+}
+
+
+/* big bnag theory */
+.bigBangTheoryImg1, .bigBangTheoryImg2, .bigBangTheoryImg3 {
+    height: 400px;
+    width: 600px;
+}
+
+/* Nebula */
+.nebulaImg1, .nebulaImg2, .nebulaImg3, .nebulaImg4, .nebulaImg5, .nebulaImg6 {
+    height: 360px;
+    width: 600px;
+}
+
+/* Astroid Belt */
+.astroidBeltImg1 {
+    height: 200px;
+    width: 400px;
+}
+.astroidBeltImg2, .astroidBeltImg4 {
+    height: 300px;
+    width: 500px;
+}
+.astroidBeltImg3 {
+    height: 300px;
+    width: 450px;
+}
+
+/* Worm Hole */
+.wormHoleImg1, .wormHoleImg2 {
+    height: 350px;
+    width: 600px;
+}
+
+/* Black Hole */
+.blackHoleImg1, .blackHoleImg2, .blackHoleImg3, .blackHoleImg4 {
+    height: 350px;
+    width: 580px;
+}
+
+/* SuperNova */
+.superNovaImg1 {
+    height: 300px;
+    width: 500px;
+}
+.superNovaImg2 {
+    height: 350px;
+    width: 500px;
+}
+
+/* Comets */
+.cometsImg1, .cometsImg2, .cometsImg3 {
+    height: 350px;
+    width: 550px;
+}
+
+/* Constellation */
+.constellationImg1 {
+    height: 550px;
+    width: 500px;
+    border: 3px solid #fff;
+}
+.constellationImg2, .constellationImg3 {
+    height: 500px;
+    width: 550px;
+}
+
+/* Galaxies */
+.galaxiesImg1 {
+    height: 500px;
+    width: 600px;
+}
+.galaxiesImg2, .galaxiesImg3, .galaxiesImg4 {
+    height: 400px;
+    width: 650px;
+}
+.galaxiesImg5 {
+    height: 500px;
+    width: 650px;
+}
+
+/* Mercury */
+.mercuryImg1 {
+    height: 350px;
+    width: 520px;
+}
+.mercuryImg2 {
+    height: 400px;
+    width: 700px;
+}
+.mercuryImg3 {
+    height: 300px;
+    width: 400px;
+}
+.mercuryImg4 {
+    height: 300px;
+    width: 500px;
+}
+
+/* Venus */
+.venusImg1, .venusImg3, .venusImg4 {
+    height: 350px;
+    width: 460px;
+}
+.venusImg2 {
+    height: 350px;
+    width: 1000px;
+}
+
+/* Earth */
+.earthImg1 {
+    height: 350px;
+    width: 370px;
+}
+.earthImg4 {
+    height: 400px;
+    width: 530px;
+}
+.earthImg5 {
+    height: 350px;
+    width:600px;
+}
+
+/* Mars */
+.marsImg1 {
+    height: 340px;
+    width: 350px;
+}
+.marsImg2 {
+    height: 250px;
+    width: 800px;
+}
+.marsImg3 {
+    height: 350px;
+    width: 350px;
+}
+.marsImg4, .marsImg5 {
+    height: 380px;
+    width: 750px;
+}
+
+/* Jupiter */
+.jupiterImg2, .jupiterImg4 {
+    height: 370px;
+    width: 600px;
+}
+.jupiterImg3 {
+    height: 350px;
+    width: 350px;
+}
+
+/* Saturn */
+.saturnImg1, .saturnImg3 {
+    height: 400px;
+    width: 500px;
+}
+.saturnImg4, .saturnImg5, .saturnImg6, .saturnImg7 {
+    height: 400px;
+    width: 650px;
+}
+
+/* Uranus */
+.uranusImg1 {
+    height: 450px;
+    width: 500px;
+}
+.uranusImg2 {
+    height: 300px;
+    width: 400px;
+}
+.uranusImg3 {
+    height: 300px;
+    width: 500px;
+}
+.uranusImg5 {
+    height: 400px;
+    width: 700px;
+}
+
+/* Neptune */
+.neptuneImg1 {
+    height: 350px;
+    width: 600px;
+}
+.neptuneImg2 {
+    height: 300px;
+    width: 400px;
+}
+.neptuneImg3, .neptuneImg5 {
+    height: 400px;
+    width: 600px;
+}
+.neptuneImg4, .neptuneImg6 {
+    height: 350px;
+    width: 600px;
+}
+
+/* Pluto */
+.plutoImg1 {
+    height: 400px;
+    width: 530px;
+}
+.plutoImg2 {
+    height: 350px;
+    width: 450px;
+}
+.plutoImg3, .plutoImg4 {
+    height: 350px;
+    width: 600px;
+}
+
+/* Media Queries */
+
+@media (min-width: 250px) and (max-width: 720px) {
+    .body {
+        padding: 15px;
+
+    }
+
+    .next-page-btns {
+        display: flex;
+        flex-direction: column;
+    }
+    .img {
+        width: 100%;
+        height: auto;
+        margin: 0;
+    }
+    .body-black {
+        padding: 0 15px;
+    }
+    p {
+        text-align: justify;
+    }
+}
