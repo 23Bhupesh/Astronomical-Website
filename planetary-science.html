@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Planetary Science</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            background-image: url("gif/body.gif");
+            background-position: center;
+            background-size: cover;
+            height: 100vh;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            padding: 15px;
+        }
+        .container {
+            margin: auto;
+        }
+        @media (min-width: 250px) and (max-width: 720px) {
+            .cosmology-btns-1,
+            .cosmology-btns-2,
+            .cosmology-btns-3 {
+                display: flex;
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="cosmology-btns-1">
+            <table>
+                <tr>
+                    <div><a href="mercury.html"><button class="btn mercury-btn">MERCURY</button></a></div>
+                    <div><a href="venus.html"><button class="btn venus-btn">VENUS</button></a></div>
+                    <div><a href="earth.html"><button class="btn earth-btn">EARTH</button></a></div>
+                </tr>
+            </table>
+        </div>
+
+        <div class="cosmology-btns-2">
+            <table>
+                <tr>
+                    <div><a href="mars.html"><button class="btn mars-btn">MARS</button></a></div>
+                    <div><a href="jupiter.html"><button class="btn jupiter-btn">JUPITER</button></a></div>
+                    <div><a href="saturn.html"><button class="btn saturn-btn">SATURN</button></a></div>
+                </tr>
+            </table>
+        </div>
+
+        <div class="cosmology-btns-3">
+            <table>
+                <tr>
+                    <div><a href="uranus.html"><button class="btn uranus-btn">URANUS</button></a></div>
+                    <div><a href="neptune.html"><button class="btn neptune-btn">NEPTUNE</button></a></div>
+                    <div><a href="pluto.html"><button class="btn pluto-btn">PLUTO<br>(Dwarf planet)</button></a></div>
+                </tr>
+            </table>
+        </div>
+
+    </div>
+</body>
+
+</html>
