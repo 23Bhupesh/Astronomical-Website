@@ -486,4 +486,23 @@ h3 {
     p {
         text-align: justify;
     }
+    .wlcm-statement {
+        font-family: 'Fira Sans', sans-serif;
+        font-size: 1.1rem;
+        color: #fff;
+        padding-bottom: 3%;
+        text-align: center;
+    }
+    
+    .quote {
+        color: #fff;
+        font-size: 1rem;
+        font-family: 'Freehand', cursive;
+        text-align: justify;
+    }
+    
+    pre {
+        font-family: 'Freehand', cursive;
+        text-align: right;
+    }
 }
