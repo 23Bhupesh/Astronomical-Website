@@ -470,8 +470,7 @@ h3 {
         overflow: auto;
       }
     .body {
-        padding: 15px;
-
+        width: 100vw;
     }
     .next-page-btns {
         display: flex;
