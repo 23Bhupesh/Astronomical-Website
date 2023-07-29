@@ -465,7 +465,7 @@ h3 {
 
 /* Media Queries */
 
-@media (min-width: 250px) and (max-width: 720px) {
+@media (min-width: 100px) and (max-width: 720px) {
     .body {
         padding: 15px;
 
