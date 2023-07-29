@@ -483,6 +483,9 @@ h3 {
     .body-black {
         padding: 0 15px;
     }
+    .btn {
+        margin: 15px 0px;
+    }
     p {
         text-align: justify;
     }
@@ -493,16 +496,16 @@ h3 {
         padding-bottom: 3%;
         text-align: center;
     }
-    
     .quote {
         color: #fff;
         font-size: 1rem;
         font-family: 'Freehand', cursive;
         text-align: justify;
+        padding-bottom: 0%;
     }
-    
     pre {
         font-family: 'Freehand', cursive;
         text-align: right;
+        padding-top: 0%;
     }
 }
