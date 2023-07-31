@@ -7,10 +7,64 @@
     <title>The Universe</title>
     <link rel="stylesheet" href="styles.css">
     <style>
+        body {
+            background-image: url("gif/body.gif");
+            background-position: center;
+            background-size: cover;
+            width: 100%;
+            height: 100vh;
+            flex-direction: column;
+        }
+
+        .container-index-1 {
+            height: 100vh;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+
+        .body-index {}
+
+        .footer {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            color: #fff;
+            background-color: #000;
+            font-family: 'Fira Sans', sans-serif;
+            letter-spacing: 0.1rem;
+            font-size:1em;
+            padding: 5px;
+        }
+
+        b {
+            color: aqua;
+        }
+        .footer-a {
+            font-size: 1.1rem;
+            text-decoration: none;
+            color: #fff;
+        }
+
+        .copyRight {
+            margin: 5px;
+            font-size: 0.8rem;
+            font-weight: bold;
+            letter-spacing: 0.1em;
+        }
+        .name {
+            padding-top: 5px;
+            margin-bottom: 10px;
+        }
+
         @media (min-width:250px) and (max-width:720px) {
             body {
                 width: 100vw;
             }
+
             .container-index {
                 padding: 15px;
             }
@@ -18,29 +72,44 @@
     </style>
 </head>
 
-<body class="body">
-    <div class="container-index">
-        <div class="wlcm-statement">
-            <h1>
-                WELCOME TO 'THE UNIVERSE'
-            </h1>
-        </div>
+<body class="body-index">
+    <div class="container-index-1">
+        <div class="container-index-2">
+            <div class="wlcm-statement">
+                <h1>
+                    WELCOME TO 'THE UNIVERSE'
+                </h1>
+            </div>
 
-        <div class="quote">
-            <h2>
-                "There is nothing bigger or older than the Universe"
-            </h2>
-            <h3 class="pre" style="text-decoration: none;">
-                
-             -Stephen Hawking
-                
-            </h3>
-        </div>
+            <div class="quote">
+                <h2>
+                    "There is nothing bigger or older than the Universe"
+                </h2>
+                <h3 class="pre" style="text-decoration: none;">
 
-        <div class="next-btn">
-            <a href="next-page.html"><button class="next">NEXT</button></a>
+                    -Stephen Hawking
+
+                </h3>
+            </div>
+
+            <div class="next-btn">
+                <a href="next-page.html"><button class="next">NEXT</button></a>
+            </div>
         </div>
     </div>
+
+
+    <footer>
+        <div class="footer">
+            <div class="copyRight">
+                <p>© ALL RIGHTS RESERVED</p>
+            </div>
+            <div class="name">
+                <p>Designed by <a class="footer-a" href="https://www.linkedin.com/in/bhupesh-sahu-70a33a22b/"><b>Bhupesh
+                            Sahu</b></a></p>
+            </div>
+        </div>
+    </footer>
 
 </body>
 
